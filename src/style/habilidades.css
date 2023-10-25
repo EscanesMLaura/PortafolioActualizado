@@ -1,0 +1,20 @@
+.image{
+  display: flexbox;
+  width: 250px;
+  background-size: cover;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.pagina .tituloSkills{
+  font-size: 40px;
+  font-weight: bold;
+  color: #4150d0;
+}
+
+
+@media screen and (max-width: 460px) {
+  .pagina .tituloSkills{
+   margin-top: 45px;    
+  }
+}
