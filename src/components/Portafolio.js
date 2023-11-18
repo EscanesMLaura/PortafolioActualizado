@@ -1,6 +1,6 @@
 import React from 'react'
 import { ListadoTrabajos } from './ListadoTrabajos';
-import { Habilidades } from './Habilidades';
+//import { Habilidades } from './Habilidades';
 
 export const Portafolio = () => {
   return (

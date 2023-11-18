@@ -13,13 +13,13 @@ export const ListadoTrabajos = ({ limite }) => {
               <div className='card'>
 
                 <div className='card-encabezado'>
-                  <img src={"/images/" + trabajo.id + ".jpg"} />
+                  <img src={"/images/" + trabajo.id + ".jpg"} alt='imagen' />
                 </div>
                 <br />
 
                 <div className='card-iconos'>
-                  <li className='agrandar'><a href={trabajo.url} target="_blank"><ion-icon name="desktop-outline"></ion-icon></a></li>
-                  <li className='agrandar'><a href={trabajo.codigo} target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                  <li className='agrandar'><a href={trabajo.url} target="_blank" rel="noreferrer"><ion-icon name="desktop-outline"></ion-icon></a></li>
+                  <li className='agrandar'><a href={trabajo.codigo} target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
                 </div>
 
                 <div className='card-contenido'>

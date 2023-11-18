@@ -10,7 +10,7 @@ export const Curriculum = () => {
 
       <h2 className="cv">Experiencia</h2>
       <br />
-      <h3><a href="https://www.vippinn.com" target="_blank"><img src="/images/imgvippinn.png" className="imgcvv"/></a> &nbsp;Vippinn</h3>
+      <h3><a href="https://www.vippinn.com" target="_blank" rel="noreferrer"><img src="/images/imgvippinn.png" className="imgcvv" alt='imagen'/></a> &nbsp;Vippinn</h3>
         <p>Jornada parcial - <b>Actualidad</b>
         <br />
         Córdoba, Argentina</p>
@@ -26,7 +26,7 @@ export const Curriculum = () => {
       <br />
 
       
-      <h3><a href="https://www.farmacity.com/" target="_blank"><img src="/images/imgfty.png" className="imgcv"/></a> &nbsp;Farmacity</h3>
+      <h3><a href="https://www.farmacity.com/" target="_blank" rel="noreferrer"><img src="/images/imgfty.png" className="imgcv" alt='imagen'/></a> &nbsp;Farmacity</h3>
         <p>Jornada completa - <b>11 años 5 meses</b>
         <br />
         Córdoba, Argentina</p>
@@ -72,7 +72,7 @@ export const Curriculum = () => {
       </ul>
       <br />
 
-      <h3><a href="https://www.cinemarkhoyts.com.ar/" target="_blank"><img src="/images/imghoyts.png" className="imgcv"/></a> &nbsp;Cinemark Hoyts Argentina</h3>
+      <h3><a href="https://www.cinemarkhoyts.com.ar/" target="_blank" rel="noreferrer"><img src="/images/imghoyts.png" className="imgcv" alt='imagen'/></a> &nbsp;Cinemark Hoyts Argentina</h3>
         <p>Jornada completa - <b>4 años 9 meses</b>
         <br />
         Córdoba, Argentina</p>
@@ -109,58 +109,58 @@ export const Curriculum = () => {
       <h2 className="cv">Cursos</h2>
       <br />
       <ul>
-      <li><img src="/images/imgispc.png" className="logoscv"/>&nbsp;<b>Full Stack Python</b>
+      <li><img src="/images/imgispc.png" className="logoscv" alt='imagen'/>&nbsp;<b>Full Stack Python</b>
           <br />
           <em>ISPC - Instituto Superior Politécnico Córdoba - PIL 2023</em> - Actualidad</li>
         <br />
 
-        <li><img src="/images/imgudemy.png" className="logoscv"/>&nbsp;<b>Máster en React: Hooks, Context API, MERN Stack
+        <li><img src="/images/imgudemy.png" className="logoscv" alt='imagen'/>&nbsp;<b>Máster en React: Hooks, Context API, MERN Stack
           ( MongoDB, ExpressJS, ReactJS y NodeJS ), JWT</b>
           <br />
           <em>Udemy</em> - Actualidad</li>
         <br />
 
-        <li><img src="/images/imgseu.png" className="logoscv"/>&nbsp;<b>Python: Primeros pasos</b>
+        <li><img src="/images/imgseu.png" className="logoscv" alt='imagen'/>&nbsp;<b>Python: Primeros pasos</b>
           <br />
           <em>Secretaría de Extensión Universitaria UTN - FRC</em> - jul.2023</li>
         <br />
       
-        <li><img src="/images/imgseu.png" className="logoscv"/>&nbsp;<b>Lógica y fundamentos de Programación</b>
+        <li><img src="/images/imgseu.png" className="logoscv" alt='imagen'/>&nbsp;<b>Lógica y fundamentos de Programación</b>
           <br />
           <em>Secretaría de Extensión Universitaria UTN - FRC</em> - jun.2023</li>
         <br />
 
-        <li><img src="/images/imgfcc.png" className="logoscv"/>&nbsp;<b>Fundamentos de Git y GitHub</b>
+        <li><img src="/images/imgfcc.png" className="logoscv" alt='imagen'/>&nbsp;<b>Fundamentos de Git y GitHub</b>
           <br />
           <em>freeCodeCamp</em> - abr.2023</li>
         <br />
 
-        <li><img src="/images/imgfcc.png"  className="logoscv"/>&nbsp;<b>Algoritmos de JavaScript y proyectos de estructuras de datos</b>
+        <li><img src="/images/imgfcc.png"  className="logoscv" alt='imagen'/>&nbsp;<b>Algoritmos de JavaScript y proyectos de estructuras de datos</b>
           <br />
           <em>freeCodeCamp</em> - abr.2023</li>
         <br />
 
-        <li><img src="/images/imgfcc.png"  className="logoscv"/>&nbsp;<b>Fundamentos de React</b>
+        <li><img src="/images/imgfcc.png"  className="logoscv" alt='imagen'/>&nbsp;<b>Fundamentos de React</b>
           <br />
           <em>freeCodeCamp</em> - ene.2023</li>
         <br />
 
-        <li><img src="/images/imgfcc.png"  className="logoscv"/>&nbsp;<b>Fundamentos de JavaScript</b>
+        <li><img src="/images/imgfcc.png"  className="logoscv" alt='imagen'/>&nbsp;<b>Fundamentos de JavaScript</b>
           <br />
           <em>freeCodeCamp</em> - nov.2022</li>
         <br />
 
-        <li><img src="/images/imgada.png" className="logoscv"/>&nbsp;<b>Introducción al desarrollo FrontEnd</b>
+        <li><img src="/images/imgada.png" className="logoscv" alt='imagen'/>&nbsp;<b>Introducción al desarrollo FrontEnd</b>
           <br />
           <em>Ada ITW</em> - oct.2022</li>
         <br />
 
-        <li><img src="/images/imgudemy.png" className="logoscv"/>&nbsp;<b>Desarrollo web básico con HTML5, CSS3 y JavaScript</b>
+        <li><img src="/images/imgudemy.png" className="logoscv" alt='imagen'/>&nbsp;<b>Desarrollo web básico con HTML5, CSS3 y JavaScript</b>
           <br />
           <em>Udemy</em> - sept.2022</li>
         <br />
 
-        <li><img src="/images/imgfcc.png" className="logoscv"/>&nbsp;<b>Fundamentos de HTML5 y CSS3</b>
+        <li><img src="/images/imgfcc.png" className="logoscv" alt='imagen'/>&nbsp;<b>Fundamentos de HTML5 y CSS3</b>
           <br />
           <em>freeCodeCamp</em> - jul.2022</li>
       </ul>
