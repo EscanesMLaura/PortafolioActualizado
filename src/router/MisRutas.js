@@ -22,7 +22,7 @@ export const MisRutas = () => {
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/portafolio" element={<Portafolio />} />
           <Route path="/habilidades" element={<Habilidades />} />
-          <Route path="/curriculum" element={<Curriculum />} />
+         {/* <Route path="/curriculum" element={<Curriculum />} />  */}
           <Route path="*" element={
             <div className="pagina">
               <h1 className="heading">Error 404</h1>
@@ -33,8 +33,8 @@ export const MisRutas = () => {
       </section>
       
       
-      {/* FOOTER */}
-      <Footer />
+      {/* FOOTER 
+      <Footer />*/}
 
     </BrowserRouter>
   )

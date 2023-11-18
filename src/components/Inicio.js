@@ -6,13 +6,13 @@ export const Inicio = () => {
     useEffect(() => {
         const imgRedonda = document.querySelector('.imgRedonda');
         imgRedonda.classList.add('animated-img');
-    
-        return () => {
-          imgRedonda.classList.remove('animated-img');
-        };
-      }, []); 
 
-          return (
+        return () => {
+            imgRedonda.classList.remove('animated-img');
+        };
+    }, []);
+
+    return (
         <div className="inicioContainer">
             <div className="inicio">
                 <img src="/images/fotocv3.png" className="imgRedonda" alt='imagen' />

@@ -54,5 +54,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    gap: 6px;
+    margin-left: -43px;
   }
 }

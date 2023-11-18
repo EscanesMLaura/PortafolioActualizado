@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 110vh; 
+  height: 90vh; 
 }
 
 .imgRedonda{
@@ -168,7 +168,7 @@
   scale: 1.2;
 }
 
-@media screen and (max-width: 460px) {
+@media (min-width: 401px) and (max-width: 460px) {
   .inicioContainer{
     height: 120vh;    
   }

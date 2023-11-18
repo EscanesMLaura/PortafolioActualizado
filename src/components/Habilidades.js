@@ -24,10 +24,12 @@ export const Habilidades = () => {
 
             <img src="/images/imghtml.png" className="image" alt='imagen' />
             <img src="/images/imgcss.png" className="image" alt='imagen' />
+            <img src="/images/imgsass.png" className="image" alt='imagen' />
             <img src="/images/imgjs.png" className="image" alt='imagen' />
-            <img src="images/imgtypescript.png" className="image" alt='imagen' />
+            <img src="images/imgts.png" className="image" alt='imagen' />
             <img src="/images/imgreact.png" className="image" alt='imagen' />
-
+            <img src="/images/imgmaterialui.png" className="image" alt='imagen' />
+            <img src="/images/imgapi.png" className="image" alt='imagen' />
             <br />
             <br />
             <br />
@@ -37,8 +39,10 @@ export const Habilidades = () => {
             <img src="/images/imggit.png" className="image" alt='imagen' />
             <img src="/images/imggithub.png" className="image" alt='imagen' />
             <img src="/images/imggithubd.png" className="image" alt='imagen' />
+            <img src="/images/imgpostman.png" className="image" alt='imagen' />
             <img src="/images/imgjira.png" className="image" alt='imagen' />
             <img src="/images/imgfigma.png" className="image" alt='imagen' />
+            <img src="/images/imgscrum.png" className="image" alt='imagen' />
             <br />
             <br />
         </div>
