@@ -1,10 +1,10 @@
 export const trabajos = [
     {
         'id': 'Portafolio',
-        'nombre': 'Calculadora',
+        'nombre': 'Portafolio',
         'tecnologias': 'HTML - CSS - JavaScript - React',
         'url': 'https://calculadoraml.netlify.app/',
-        'codigo': 'https://github.com/EscanesMLaura/proyecto-calculadora.git',
+        'codigo': 'https://github.com/EscanesMLaura/PortafolioActualizado',
     },
     {
         'id': 'Calculadora',
