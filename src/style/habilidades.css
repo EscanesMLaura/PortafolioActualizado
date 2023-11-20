@@ -1,20 +1,46 @@
-.image{
-  display: flexbox;
-  width: 250px;
-  background-size: cover;
-  padding: 5px;
-  object-fit: contain;
+.image {
+    display: flexbox;
+    width: 240px;
+    background-size: cover;
+    padding: 7px;
+    object-fit: contain;
 }
 
-.pagina .tituloSkills{
-  font-size: 40px;
-  font-weight: bold;
-  color: #4150d0;
+.image:hover {
+    border: 3px solid #c850c0;
+}
+
+.pagina .tituloSkills {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4150d0;
 }
 
 
 @media screen and (max-width: 460px) {
-  .pagina .tituloSkills{
-   margin-top: 45px;    
-  }
+    .pagina .tituloSkills {
+        margin-top: 45px;
+    }
+}
+
+
+
+.image {
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-image {
+    animation: fadeInUp 1s ease-in-out;
 }

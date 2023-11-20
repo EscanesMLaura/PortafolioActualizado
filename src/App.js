@@ -1,20 +1,18 @@
-import { React,  }from "react";
+import { React, } from "react";
 import { MisRutas } from "./router/MisRutas";
 import BotonComienzo from "./components/BotonComienzo";
 
-
-
 function App() {
-  return (
-    <div className="layout">
-           
-    <MisRutas />
+    return (
+        <div className="layout">
 
-    <BotonComienzo />
-    
-    </div>
- 
-  );
+            <MisRutas />
+
+            <BotonComienzo />
+
+        </div>
+
+    );
 }
 
 export default App;
