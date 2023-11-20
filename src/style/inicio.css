@@ -1,198 +1,198 @@
 .inicioContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
 }
 
-.imgRedonda{
-  width: 250px;
-  height: 250px;
-  border-radius:160px;
-  border: 5px solid #4150d0;
-  box-shadow: 0px 3px 10px #ddd;
+.imgRedonda {
+    width: 250px;
+    height: 250px;
+    border-radius: 160px;
+    border: 5px solid #4150d0;
+    box-shadow: 0px 3px 10px #ddd;
 }
 
-.contenido strong{
-  text-align: center;
-  color: #4150d0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 50px;
-  margin-top: 15px;
+.contenido strong {
+    text-align: center;
+    color: #4150d0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 15px;
 }
 
 .contenido {
-  text-align: center;
+    text-align: center;
 }
 
-.contenido h1{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-size: 35px;
-  color: white;
+.contenido h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
 }
 
 .buttonContainer {
-  margin-top: 20px; 
+    margin-top: 20px;
 }
 
-.buttonContactame{ 
-  margin: 10px;
+.buttonContactame {
+    margin: 10px;
 }
 
-.buttonContactame{
-  display: inline-block;
-  position: relative;
-  padding: 10px 20px;
-  background-color: #4150d0;
-  color: white;
-  font-family: sans-serif;
-  text-decoration: none;
-  font-size: 0.9em;
-  text-align: center;
-  border: none;
-  border-radius: 15px;
-  transition: all 300ms;
-  cursor: pointer;
- 
+.buttonContactame {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #4150d0;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    transition: all 300ms;
+    cursor: pointer;
+
 }
 
 .buttonContactame:hover {
-  background-color: #c850c0;
-  color: black;
-  border-radius: 10px;
-  scale: 1.1;
+    background-color: #c850c0;
+    color: black;
+    border-radius: 10px;
+    scale: 1.1;
 }
 
 
-.buttonDownload{ 
-  margin: 3px;
+.buttonDownload {
+    margin: 3px;
 }
 
-.buttonDownload{
-  display: inline-block;
-  position: relative;
-  padding: 10px 20px;
-  background-color: #4150d0;
-  color: white;
-  font-family: sans-serif;
-  text-decoration: none;
-  font-size: 0.9em;
-  text-align: center;
-  text-indent: 15px;
-  border: none;
-  border-radius: 15px;
-  transition: all 300ms;
-  cursor: pointer;
- 
+.buttonDownload {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #4150d0;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+    text-indent: 15px;
+    border: none;
+    border-radius: 15px;
+    transition: all 300ms;
+    cursor: pointer;
+
 }
 
 .buttonDownload:hover {
-  background-color: #c850c0;
-  color: black;
-  border-radius: 10px;
-  scale: 1.1;
+    background-color: #c850c0;
+    color: black;
+    border-radius: 10px;
+    scale: 1.1;
 }
- 
-.buttonDownload:before, .buttonDownload:after {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 15px;
-  top: 52%;
-}
- 
-.buttonDownload:before {
-  width: 14px;
-  height: 4px;
-  border-style: solid;
-  border-width: 0 2px 2px;
-}
- 
+
+.buttonDownload:before,
 .buttonDownload:after {
-  width: 0;
-  height: 0;
-  margin-left: 3px;
-  margin-top: -7px;
-  border-style: solid;
-  border-width: 4px 4px 0 4px;
-  border-color: transparent;
-  border-top-color: inherit;
-  animation: downloadArrow 1s linear infinite;
-  animation-play-state: paused;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 52%;
 }
- 
+
+.buttonDownload:before {
+    width: 14px;
+    height: 4px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+}
+
+.buttonDownload:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: transparent;
+    border-top-color: inherit;
+    animation: downloadArrow 1s linear infinite;
+    animation-play-state: paused;
+}
+
 .buttonDownload:hover:before {
-  border-color: black;
+    border-color: black;
 }
- 
+
 .buttonDownload:hover:after {
-  border-top-color: black;
-  animation-play-state: running;
+    border-top-color: black;
+    animation-play-state: running;
 }
- 
+
 @keyframes downloadArrow {
-  0% {
-   margin-top: -7px;
-   opacity: 1;
-  }
- 
-  0.001% {
-   margin-top: -15px;
-   opacity: 0.4;
-  }
- 
-  50% {
-   opacity: 1;
-  }
- 
-  100% {
-   margin-top: 0;
-   opacity: 0.4;
-  }
+    0% {
+        margin-top: -7px;
+        opacity: 1;
+    }
+
+    0.001% {
+        margin-top: -15px;
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 0.4;
+    }
 }
 
-.iconosInicio ion-icon{
-  color: white;
-  font-size: 30px;
-  width: 50px;
-  height: 35px;
-  padding: 12px;
-  margin-top: 5px;
+.iconosInicio ion-icon {
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 35px;
+    padding: 12px;
+    margin-top: 5px;
 }
 
-.iconosInicio ion-icon:hover{
-  color: #c850c0;
-  transition: all 300ms;
-  scale: 1.2;
+.iconosInicio ion-icon:hover {
+    color: #c850c0;
+    transition: all 300ms;
+    scale: 1.2;
 }
 
 @media (min-width: 401px) and (max-width: 460px) {
-  .inicioContainer{
-    height: 120vh;    
-  }
+    .inicioContainer {
+        height: 120vh;
+    }
 }
-
 
 @media screen and (max-width: 400px) {
-  .inicioContainer{
-    height: 150vh;    
-  }
+    .inicioContainer {
+        height: 150vh;
+    }
 }
 
-
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .animated-img {
-  animation: fadeInUp 1s ease-in-out;
+    animation: fadeInUp 1s ease-in-out;
 }

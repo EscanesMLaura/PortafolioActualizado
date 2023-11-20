@@ -26,11 +26,9 @@
 
 
 .image {
-    /* Agrega transiciones para un cambio suave de propiedades */
     transition: transform 0.5s ease-in-out;
 }
 
-/* Define la animación keyframes */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -43,7 +41,6 @@
     }
 }
 
-/* Aplica la animación a la clase deseada */
 .animated-image {
     animation: fadeInUp 1s ease-in-out;
 }
