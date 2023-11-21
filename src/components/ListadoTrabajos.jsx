@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { trabajos } from '../jobs/trabajos';
 import "../style/listadoTrabajo.css";
+import TecnologiaIcono from '../jobs/TecnologiaIcono';
 
 export const ListadoTrabajos = ({ limite }) => {
 
@@ -21,6 +22,8 @@ export const ListadoTrabajos = ({ limite }) => {
         <>
             <section className="proyectos">
                 {trabajos.slice(0, limite).map((trabajo) => {
+                    const tecnologiasArray = trabajo.tecnologias.split(' - ');
+
                     return (
                         <article key={trabajo.id} className="contenedor">
                             <div className='card'>
@@ -36,9 +39,16 @@ export const ListadoTrabajos = ({ limite }) => {
                                 </div>
 
                                 <div className='card-contenido'>
-                                    <div className='info-personal desplazar'><h2>{trabajo.nombre}</h2></div>
-                                    <br />
-                                    <div className='info-personal desplazar'><em>{trabajo.tecnologias}</em></div>
+
+                                    <div className='info-personal desplazar'>
+                                        <h2>{trabajo.nombre}</h2>
+                                        <br />
+                                        <div className="tecnologias-container">
+                                            {tecnologiasArray.map((tecnologia, index) => (
+                                                <TecnologiaIcono key={index} tecnologia={tecnologia} />
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>

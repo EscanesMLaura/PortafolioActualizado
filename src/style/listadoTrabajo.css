@@ -181,3 +181,39 @@ ion-icon:hover {
 .animated-card {
     animation: fadeInUp 1s ease-in-out;
 }
+
+
+.card .tecnologias-container {
+    color: black;
+    font-size: 40px;
+    position: relative;
+}
+
+.card .tecnologias-container .tecnologia-icon {
+    padding: 10px;
+    position: relative;
+}
+
+.card .tecnologias-container .tecnologia-icon:hover {
+    transform: scale(1.2);
+    color: #c850c0 ;
+}
+
+.card .tecnologias-container .tecnologia-icon:hover::after {
+    content: attr(data-tecnologia);
+    position: absolute;
+    background-color: linear-gradient(-135deg, #c850c0, #4150d0);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card .tecnologias-container .tecnologia-icon:hover::after {
+    opacity: 1;
+}
