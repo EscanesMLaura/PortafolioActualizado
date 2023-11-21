@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { IoLogoCss3 } from "react-icons/io";
 import "../style/listadoTrabajo.css";
 
