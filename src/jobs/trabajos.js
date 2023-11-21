@@ -3,7 +3,7 @@ export const trabajos = [
         'id': 'Portafolio',
         'nombre': 'Portafolio',
         'tecnologias': 'HTML - CSS - JavaScript - React',
-        'url': '',
+        'url': 'https://escanesmarialaura.netlify.app/',
         'codigo': 'https://github.com/EscanesMLaura/PortafolioActualizado',
     },
     {
