@@ -197,7 +197,6 @@ ion-icon:hover {
 .card .tecnologias-container .tecnologia-icon:hover {
     transform: scale(1.2);
     color: #c850c0 ;
-    
 }
 
 .card .tecnologias-container .tecnologia-icon:hover::after {
