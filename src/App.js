@@ -1,4 +1,4 @@
-import { React, } from "react";
+import React from "react";
 import { MisRutas } from "./router/MisRutas";
 import BotonComienzo from "./components/BotonComienzo";
 
