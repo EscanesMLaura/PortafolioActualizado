@@ -1,5 +1,12 @@
 export const trabajos = [
     {
+        'id': 'candidatos1',
+        'nombre': 'Buscar candidatos',
+        'tecnologias': 'HTML - CSS - JavaScript - React - Redux',
+        'url': 'https://buscar-candidatos.netlify.app/',
+        'codigo': 'https://github.com/EscanesMLaura/candidatos-redux.git',
+    },
+    {
         'id': 'Portafolio',
         'nombre': 'Portafolio',
         'tecnologias': 'HTML - CSS - JavaScript - React',
