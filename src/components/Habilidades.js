@@ -28,6 +28,7 @@ export const Habilidades = () => {
             <img src="/images/imgjs.png" className="image" alt='imagen' />
             <img src="images/imgts.png" className="image" alt='imagen' />
             <img src="/images/imgreact.png" className="image" alt='imagen' />
+            <img src="/images/imgredux.png" className="image" alt='imagen' />
             <img src="/images/imgmaterialui.png" className="image" alt='imagen' />
             <img src="/images/imgapi.png" className="image" alt='imagen' />
             <br />

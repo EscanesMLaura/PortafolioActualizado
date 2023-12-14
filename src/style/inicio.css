@@ -169,15 +169,15 @@
     scale: 1.2;
 }
 
-@media (min-width: 401px) and (max-width: 460px) {
+@media screen and (max-width: 400px) {
     .inicioContainer {
-        height: 120vh;
+        height: 130vh;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 401px) and (max-width: 460px) {
     .inicioContainer {
-        height: 150vh;
+        height: 120vh;
     }
 }
 

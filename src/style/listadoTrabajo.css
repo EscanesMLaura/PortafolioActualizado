@@ -187,6 +187,7 @@ ion-icon:hover {
     color: black;
     font-size: 30px;
     position: relative;
+    margin-top: 10px;
 }
 
 .card .tecnologias-container .tecnologia-icon {
