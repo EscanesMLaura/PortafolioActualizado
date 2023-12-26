@@ -1,4 +1,18 @@
 export const trabajos = [
+    /*{
+        'id': 'Zuluz',
+        'nombre': 'Zuluz',
+        'tecnologias': 'HTML - CSS - JavaScript - React',
+        'url': 'https://zuluz1984.netlify.app/',
+        'codigo': 'https://github.com/EscanesMLaura/PaginaZuLuz.git',
+    },*/
+    {
+        'id': 'app-clima',
+        'nombre': 'App de clima',
+        'tecnologias': 'HTML - JavaScript - React - MUI',
+        'url': 'https://app-climaml.netlify.app/',
+        'codigo': 'https://github.com/EscanesMLaura/app-clima.git',
+    },
     {
         'id': 'candidatos1',
         'nombre': 'Buscar candidatos',

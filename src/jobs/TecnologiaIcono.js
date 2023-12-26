@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { IoLogoCss3 } from "react-icons/io";
-import { SiRedux } from "react-icons/si";
+import { SiRedux, SiMui } from "react-icons/si";
 import "../style/listadoTrabajo.css";
 
 const TecnologiaIcono = ({ tecnologia }) => {
@@ -11,6 +11,7 @@ const TecnologiaIcono = ({ tecnologia }) => {
     JavaScript: <FaJs />,
     React: <FaReact />,
     Redux: <SiRedux />,
+    MUI: <SiMui />
     // Agrega más tecnologías según sea necesario
   };
 
