@@ -1,11 +1,11 @@
 export const trabajos = [
-    /*{
-        'id': 'Zuluz',
-        'nombre': 'Zuluz',
+    {
+        'id': 'zuluz',
+        'nombre': 'Zu ∞ Luz',
         'tecnologias': 'HTML - CSS - JavaScript - React',
-        'url': 'https://zuluz1984.netlify.app/',
+        'url': 'https://www.zuluz1984.com.ar/',
         'codigo': 'https://github.com/EscanesMLaura/PaginaZuLuz.git',
-    },*/
+    },
     {
         'id': 'app-clima',
         'nombre': 'App de clima',
@@ -55,19 +55,7 @@ export const trabajos = [
         'url': 'https://contador-aguaml.netlify.app/',
         'codigo': 'https://github.com/EscanesMLaura/contador-agua.git',
     },
-    {
-        'id': 'Desplazamiento-animacion',
-        'nombre': 'Desplazamiento animado',
-        'tecnologias': 'HTML - CSS - JavaScript',
-        'url': 'https://desplazamiento-animacionml.netlify.app/',
-        'codigo': 'https://github.com/EscanesMLaura/desplazamiento-animacion.git',
-    },
-    {
-        'id': 'Carrusel-imagenes',
-        'nombre': 'Carrusel de imagenes',
-        'tecnologias': 'HTML - CSS - JavaScript',
-        'url': 'https://carrusel-imagenesml.netlify.app/',
-        'codigo': 'https://github.com/EscanesMLaura/carrusel-imagenes.git',
-    },
+    
+   
 
 ]
