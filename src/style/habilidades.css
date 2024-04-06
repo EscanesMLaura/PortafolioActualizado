@@ -1,7 +1,7 @@
 .image {
     display: flexbox;
     width: 240px;
-    /*background-size: cover;*/
+    background-size: cover;
     padding: 7px;
     object-fit: contain;
 }
