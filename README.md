@@ -4,15 +4,19 @@
 
 ## Acerca de mí
 
-¡Hola! Soy María Laura Escanes, una apasionada desarrolladora de software con experiencia en el desarrollo de aplicaciones web utilizando principalmente tecnologías como React, JavaScript, y más. Mi enfoque principal es crear experiencias de usuario intuitivas y atractivas.
+¡Hola! Soy María Laura Escanes, una apasionada desarrolladora de software con experiencia en el desarrollo de aplicaciones web utilizando principalmente tecnologías como JavaScript, TypeScript, React, PHP, Laravel y más. Mi enfoque principal es crear experiencias de usuario intuitivas y atractivas.
 
 ¡Puedes explorar mis proyectos en [https://escanesmarialaura.netlify.app/]!
 
 ## Tecnologías Utilizadas
 
-- React
-- JavaScript/ES6+
 - HTML5 y CSS3
+- JavaScript/ES6+
+- TypeScript
+- React
+- PHP
+- Laravel
+- MySQL
 
 ## Cómo Ejecutar el Proyecto Localmente
 

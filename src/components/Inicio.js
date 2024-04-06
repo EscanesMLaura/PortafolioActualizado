@@ -25,14 +25,14 @@ export const Inicio = () => {
                 </h1>
 
                 <h1>
-                    Desarrolladora React
+                    Desarrolladora Full Stack
                 </h1>
 
                 <div className="buttonContainer">
                     <a href="mailto:escanesmarialaura@gmail.com?subject=Correo enviado desde tu Portafolio&body=Me interesa contactarme con vos" target="_blank" rel="noreferrer">
                         <button className="buttonContactame">Contactame</button>
                     </a>
-                    <a href="../CV - Escanes María Laura.pdf" target="_blank" rel="noreferrer">
+                    <a href="../Escanes María Laura - CV.pdf" target="_blank" rel="noreferrer">
                         <button className="buttonDownload">Descargar CV</button>
                     </a>
                 </div>

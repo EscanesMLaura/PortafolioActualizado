@@ -21,7 +21,7 @@ export const trabajos = [
         'codigo': 'https://github.com/EscanesMLaura/candidatos-redux.git',
     },
     {
-        'id': 'Portafolio',
+        'id': 'Portafolio1',
         'nombre': 'Portafolio',
         'tecnologias': 'HTML - CSS - JavaScript - React',
         'url': 'https://escanesmarialaura.netlify.app/',

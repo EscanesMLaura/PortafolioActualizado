@@ -30,13 +30,23 @@ export const Habilidades = () => {
             <img src="/images/imgreact.png" className="image" alt='imagen' />
             <img src="/images/imgredux.png" className="image" alt='imagen' />
             <img src="/images/imgmaterialui.png" className="image" alt='imagen' />
-            <img src="/images/imgapi.png" className="image" alt='imagen' />
+            
             <br />
             <br />
             <br />
-            <h1 className="tituloSkills">Editor, Herramientas, Etc..</h1>
+            <h1 className="tituloSkills">BackEnd</h1>
+
+            <img src="/images/imgphp.png" className="image" alt='imagen' />
+            <img src="/images/imglaravel.png" className="image" alt='imagen' />
+            <img src="/images/imgapi1.png" className="image" alt='imagen' />
+
+            <br />
+            <br />
+            <br />
+            <h1 className="tituloSkills">Editor, Bases de datos, Herramientas, Etc..</h1>
 
             <img src="/images/imgvsc.png" className="image" alt='imagen' />
+            <img src="/images/imgmysql.png" className="image" alt='imagen' />
             <img src="/images/imggit.png" className="image" alt='imagen' />
             <img src="/images/imggithub.png" className="image" alt='imagen' />
             <img src="/images/imggithubd.png" className="image" alt='imagen' />
@@ -44,6 +54,13 @@ export const Habilidades = () => {
             <img src="/images/imgjira.png" className="image" alt='imagen' />
             <img src="/images/imgfigma.png" className="image" alt='imagen' />
             <img src="/images/imgscrum.png" className="image" alt='imagen' />
+
+            <br />
+            <br />
+            <br />
+            <h1 className="tituloSkills">Inglés</h1>
+
+            <img src="/images/imga1.png" className="image" alt='imagen' />
             <br />
             <br />
         </div>
