@@ -13,13 +13,13 @@ export const trabajos = [
         'url': 'https://app-climaml.netlify.app/',
         'codigo': 'https://github.com/EscanesMLaura/app-clima.git',
     },
-   /* {
+    {
         'id': 'candidatos1',
         'nombre': 'Buscar candidatos',
         'tecnologias': 'HTML - CSS - JavaScript - React - Redux',
         'url': 'https://buscar-candidatos.netlify.app/',
         'codigo': 'https://github.com/EscanesMLaura/candidatos-redux.git',
-    },*/
+    },
     {
         'id': 'Portafolio1',
         'nombre': 'Portafolio',
@@ -55,7 +55,7 @@ export const trabajos = [
         'url': 'https://contador-aguaml.netlify.app/',
         'codigo': 'https://github.com/EscanesMLaura/contador-agua.git',
     },
-    
-   
+
+
 
 ]
