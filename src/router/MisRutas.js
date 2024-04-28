@@ -4,8 +4,7 @@ import { HeaderNav } from '../components/layout/HeaderNav';
 import { Inicio } from '../components/Inicio';
 import { Portafolio } from '../components/Portafolio';
 import { Habilidades } from '../components/Habilidades';
-
-
+import { Experiencia } from '../components/Experiencia';
 
 export const MisRutas = () => {
     return (
@@ -20,6 +19,7 @@ export const MisRutas = () => {
                     <Route path="/inicio" element={<Inicio />} />
                     <Route path="/portafolio" element={<Portafolio />} />
                     <Route path="/habilidades" element={<Habilidades />} />
+                    <Route path="/experiencia" element={<Experiencia />} />
                     <Route path="*" element={
                         <div className="pagina">
                             <h1 className="heading">Error 404</h1>
