@@ -30,26 +30,29 @@ export const ListadoExperiencias = ({ limite }) => {
                             <div className='tarjeta'>
                                 <div className='tarjeta-encabezado' onClick={() => handleImageClick(experiencia.url)}>
                                     <img src={"/images/" + experiencia.id + ".jpg"} alt='imagen' />
+                                    <h2>{experiencia.nombre}</h2>
+                                    <p>{experiencia.duracion}</p>
                                 </div>
                                 <br />
 
                                 <div className='tarjeta-contenido'>
                                     <div className='info-personal desplazar'>
-                                        <h2>{experiencia.nombre}</h2>
+
                                         {experiencia.puestos.map((puesto, index) => (
                                             <div key={index}>
-                                                <h3>{puesto.nombre}</h3>
-                                                <p><strong>Tareas:</strong></p>
+                                                <h2 style={{ color: puesto.color }}>{puesto.nombre}</h2>
+                                                <p style={{ color: puesto.color }}>{puesto.fecha}</p>
+                                                <h5>{puesto.jornada}</h5>
                                                 <ul>
                                                     {puesto.tareas.map((tarea, tareaIndex) => (
-                                                        <li key={tareaIndex}>{tarea}</li>
+                                                        <p key={tareaIndex} style={{ textAlign: 'left' }}>{tarea}</p>
                                                     ))}
                                                 </ul>
+                                                <br />
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-
                             </div>
                         </article>
                     );

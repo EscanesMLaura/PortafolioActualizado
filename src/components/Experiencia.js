@@ -6,7 +6,7 @@ export const Experiencia = () => {
 
         <div className="pagina">
             <br />
-            <h1 className="titulo">Experiencia laboral</h1>
+            <h1 className="titulo">Experiencia</h1>
 
             <ListadoExperiencias />
 
