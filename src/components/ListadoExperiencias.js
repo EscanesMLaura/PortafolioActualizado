@@ -1,53 +1,52 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import { experiencias } from '../jobs/experiencias';
-import "../style/listadoTrabajo.css";
-import TecnologiaIcono from '../jobs/TecnologiaIcono';
+import "../style/listadoExperiencia.css";
 
 export const ListadoExperiencias = ({ limite }) => {
 
     useEffect(() => {
-        const cards = document.querySelectorAll('.card');
-        cards.forEach(card => {
-            card.classList.add('animated-card');
+        const tarjetas = document.querySelectorAll('.tarjeta');
+        tarjetas.forEach(tarjeta => {
+            tarjeta.classList.add('animated-tarjeta');
         });
 
         return () => {
-            cards.forEach(card => {
-                card.classList.remove('animated-card');
+            tarjetas.forEach(tarjeta => {
+                tarjeta.classList.remove('animated-tarjeta');
             });
         };
     }, []);
+
+    const handleImageClick = (url) => {
+        window.open(url, '_blank');
+    };
 
     return (
         <>
             <section className="proyectos">
                 {experiencias.slice(0, limite).map((experiencia) => {
-                    const tecnologiasArray = experiencia.tecnologias.split(' - ');
-
                     return (
                         <article key={experiencia.id} className="contenedor">
-                            <div className='card'>
-
-                                <div className='card-encabezado'>
+                            <div className='tarjeta'>
+                                <div className='tarjeta-encabezado' onClick={() => handleImageClick(experiencia.url)}>
                                     <img src={"/images/" + experiencia.id + ".jpg"} alt='imagen' />
                                 </div>
                                 <br />
 
-                                <div className='card-iconos'>
-                                    <li className='agrandar'><a href={experiencia.url} target="_blank" rel="noreferrer"><ion-icon name="desktop-outline"></ion-icon></a></li>
-                                    <li className='agrandar'><a href={experiencia.codigo} target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
-                                </div>
-
-                                <div className='card-contenido'>
-
+                                <div className='tarjeta-contenido'>
                                     <div className='info-personal desplazar'>
                                         <h2>{experiencia.nombre}</h2>
-                                        <br />
-                                        <div className="tecnologias-container">
-                                            {tecnologiasArray.map((tecnologia, index) => (
-                                                <TecnologiaIcono key={index} tecnologia={tecnologia} />
-                                            ))}
-                                        </div>
+                                        {experiencia.puestos.map((puesto, index) => (
+                                            <div key={index}>
+                                                <h3>{puesto.nombre}</h3>
+                                                <p><strong>Tareas:</strong></p>
+                                                <ul>
+                                                    {puesto.tareas.map((tarea, tareaIndex) => (
+                                                        <li key={tareaIndex}>{tarea}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        ))}
                                     </div>
                                 </div>
 
@@ -59,10 +58,6 @@ export const ListadoExperiencias = ({ limite }) => {
         </>
     );
 };
-
-
-
-
 
 
 

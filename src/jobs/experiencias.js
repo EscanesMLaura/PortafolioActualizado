@@ -2,23 +2,42 @@ export const experiencias = [
   {
     'id': 'vippinn',
     'nombre': 'Vippinn',
-    'tecnologias': 'HTML - CSS - JavaScript - React',
+    'puestos': [
+      {
+        'nombre': 'Desarrolladora Full Stack',
+        'tareas': [' HTML5 - CSS - SASS - Diseño web adaptable - Material UI', 'TypeScript - React.js','APIs - PHP - Laravel - MySQL', 'Git - GitHub - Figma - Jira - Scrum']
+      },
+      {
+        'nombre': 'Diseñador UI/UX',
+        'tareas': ['Diseño de la experiencia de usuario', 'Creación de prototipos']
+      },
+      {
+        'nombre': 'Diseñador UI/UX',
+        'tareas': ['Diseño de la experiencia de usuario', 'Creación de prototipos']
+      }
+    ],
     'url': 'https://www.zuluz1984.com.ar/',
-    'codigo': 'https://github.com/EscanesMLaura/PaginaZuLuz.git',
   },
   {
     'id': 'fty1',
     'nombre': 'Farmacity',
-    'tecnologias': 'HTML - JavaScript - React - MUI',
+    'puestos': [
+      {
+        'nombre': 'Desarrollador Frontend',
+        'tareas': ['Desarrollo de la aplicación web', 'Integración con APIs externas']
+      }
+    ],
     'url': 'https://app-climaml.netlify.app/',
-    'codigo': 'https://github.com/EscanesMLaura/app-clima.git',
   },
   {
     'id': 'hoyts2',
     'nombre': 'Hoyts',
-    'tecnologias': 'HTML - CSS - JavaScript - React - Redux',
+    'puestos': [
+      {
+        'nombre': 'Desarrollador Fullstack',
+        'tareas': ['Desarrollo de la aplicación', 'Gestión de estado con Redux']
+      }
+    ],
     'url': 'https://buscar-candidatos.netlify.app/',
-    'codigo': 'https://github.com/EscanesMLaura/candidatos-redux.git',
   }
-
-]
+];
